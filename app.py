@@ -6,7 +6,7 @@ from datetime import timedelta
 st.set_page_config(page_title="ProfitPilot", layout="wide")
 
 # =========================
-# UI STYLING (PREMIUM)
+# UI STYLING
 # =========================
 st.markdown("""
 <style>
@@ -245,7 +245,7 @@ st.markdown("### Expense Ratio Trend")
 st.line_chart(data.set_index('date')['Expense_Ratio'])
 
 # =========================
-# FORECAST (FIXED)
+# FORECAST
 # =========================
 st.markdown("### Revenue Forecast")
 
