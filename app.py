@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import timedelta
 
-st.set_page_config(page_title="Business Health Dashboard", layout="wide")
+st.set_page_config(page_title="Revenue Sphere", layout="wide")
 
 # =========================
 # UI STYLING
